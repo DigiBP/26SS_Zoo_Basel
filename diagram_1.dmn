@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1nxkzlc" name="candidate-decision.dmn" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.44.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <decision id="candidateDecision" name="candidate-decision.dmn">
+    <decisionTable id="DecisionTable_0n6a7x8" hitPolicy="FIRST">
+      <input id="Input_1">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>yearsExperience</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0ksg2e4">
+        <inputExpression id="LiteralExpression_0c1hdy7" typeRef="string">
+          <text>workPermit</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0eggp2u">
+        <inputExpression id="LiteralExpression_0xbazox" typeRef="string">
+          <text>englishLevel</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="decision" typeRef="string" />
+      <rule id="DecisionRule_0z6pc86">
+        <inputEntry id="UnaryTests_0n6oju8">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0s2rowp">
+          <text>"no"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0b3tlbc">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0o8ffcz">
+          <text>"Reject"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_09rmlst">
+        <inputEntry id="UnaryTests_07g26gb">
+          <text>"0-1 years"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1yuyokm">
+          <text>"no"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1mf9k56">
+          <text>"basic"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_00nypg8">
+          <text>"Reject"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_14t970z">
+        <inputEntry id="UnaryTests_0cn4ujv">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_153foab">
+          <text>"yes"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_18884l1">
+          <text>"intermediate"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0ly5bl2">
+          <text>"Continue"</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1fxmvqr">
+        <inputEntry id="UnaryTests_1uemsmt">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1p91jzq">
+          <text>"yes"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1y099pz">
+          <text>"advanced"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1n7af0d">
+          <text>"Continue"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape id="Decision_0exi4o7_di" dmnElementRef="candidateDecision">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
