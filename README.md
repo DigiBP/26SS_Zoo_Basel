@@ -9,10 +9,11 @@
 | Aleksandra Grzegorczyk  | <aleksandra.grzegorczyk@students.fhnw.ch> |
 
 ## Coaches
+Andreas Martin
 
-    Andreas Martin
-    Charuta Pande
-    Devid Montecchiari
+Charuta Pande
+
+Devid Montecchiari
 
 ---
 
