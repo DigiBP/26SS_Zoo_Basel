@@ -23,9 +23,20 @@ This project focuses on improving the employee recruitment process by making it 
 ---
 
 ## AS-IS Process Overview
-The recruitment process is modeled in BPMN and covers the main steps from job posting to candidate evaluation. It includes receiving applications, performing a first screening, sending an online assessment, and evaluating the results.
+The recruitment process is modeled in BPMN and covers the main steps from job posting to candidate evaluation. It includes:
+1. The hiring process starts when a department manager identifies a hiring need and creates a job requisition.
+2. HR reviews the requisition; if it is not approved, the process ends with rejection. If approved, HR publishes the job posting and stores the posting details in the database.
+3. Candidates submit applications, which HR receives and reviews for compliance.
+4. Non-compliant applications are rejected, while compliant applications are reviewed further by the department manager.
+5. The department manager decides whether the application should proceed. Approved candidates are sent to HR for interview approval and scheduling; rejected candidates are notified.
+6. HR schedules and conducts interviews, then decides whether to employ the candidate.
+7. If the candidate is rejected after interview, a rejection notification is sent. If selected, HR sends an employment offer.
+8. After the candidate responds to the offer, HR checks whether the offer is accepted. If not, the candidate is rejected.
+9. Once the offer is accepted, HR prepares employment documents, including the employment contract and other scanned documents.
+10. The process ends when the employment documents are sent to the candidate.
 
 The goal is to clearly structure the process and reduce manual effort by automating repetitive tasks and decisions where possible.
+
 <img width="8004" height="2370" alt="Hiring process_Group project_AS-IS" src="https://github.com/user-attachments/assets/23864abd-8206-4d49-812b-c2fd99299579" />
 
 
