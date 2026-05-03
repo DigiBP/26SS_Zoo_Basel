@@ -22,10 +22,13 @@ This project focuses on improving the employee recruitment process by making it 
 
 ---
 
-## Process Overview
+## AS-IS Process Overview
 The recruitment process is modeled in BPMN and covers the main steps from job posting to candidate evaluation. It includes receiving applications, performing a first screening, sending an online assessment, and evaluating the results.
 
 The goal is to clearly structure the process and reduce manual effort by automating repetitive tasks and decisions where possible.
+<img width="8004" height="2370" alt="Hiring process_Group project_AS-IS" src="https://github.com/user-attachments/assets/23864abd-8206-4d49-812b-c2fd99299579" />
+
+
 
 ---
 
