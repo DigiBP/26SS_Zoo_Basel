@@ -22,7 +22,7 @@ This project focuses on improving the employee recruitment process by making it 
 
 ---
 
-## AS-IS Process Overview
+## 1. AS-IS Process Overview
 The recruitment process is modeled in BPMN and covers the main steps from job posting to candidate evaluation. It includes:
 1. The hiring process starts when a department manager identifies a hiring need and creates a job requisition.
 2. HR reviews the requisition; if it is not approved, the process ends with rejection. If approved, HR publishes the job posting and stores the posting details in the database.
@@ -37,18 +37,21 @@ The recruitment process is modeled in BPMN and covers the main steps from job po
 
 The goal is to clearly structure the process and reduce manual effort by automating repetitive tasks and decisions where possible.
 
-<img width="8004" height="2370" alt="Hiring process_Group project_AS-IS" src="https://github.com/user-attachments/assets/23864abd-8206-4d49-812b-c2fd99299579" />
+<img width="8004" height="2370" alt="Hiring process_Group project_AS-IS" src="https://github.com/user-attachments/assets/18a5e4bf-1ba2-45e0-9f70-9a1cca4fafa2" />
 
 
 
 ---
 
-## First Screening Automation
+## 2. First Screening Automation
 For the first screening, we created a Google Form to collect relevant candidate information such as work permit, experience, and language level.
 
 This data is evaluated using a DMN decision table, which automatically determines whether a candidate should be rejected or allowed to continue. The decision logic is integrated into the BPMN model through a Business Rule Task, and the result is used in a gateway to route the process accordingly.
 
 This step helps ensure that only candidates who meet the minimum requirements proceed to the next stage.
+
+<img width="13944" height="2430" alt="Hiring process_Group project_TO-BE_Version 2" src="https://github.com/user-attachments/assets/90fbf3d2-fbcb-4d90-a919-44719c465510" />
+
 
 ---
 
