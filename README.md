@@ -7,6 +7,13 @@
 | Coraline Meyer          | <coraline.meyer@students.fhnw.ch> |
 | Laura Roggo             | <laura.roggo@students.fhnw.ch>  |
 | Aleksandra Grzegorczyk  | <aleksandra.grzegorczyk@students.fhnw.ch> |
+
+## Coaches
+
+    Andreas Martin
+    Charuta Pande
+    Devid Montecchiari
+
 ---
 
 ## Project Description
