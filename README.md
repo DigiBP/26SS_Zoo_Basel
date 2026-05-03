@@ -1,4 +1,14 @@
 # 26SS_Zoo_Basel
+---
+## Team members
+| Name                    | email         |
+| ------------------------| ------------- |
+| Julia Schönthal         | <julia.schoenthal@students.fhnw.ch> |
+| Coraline Meyer          | <coraline.meyer@students.fhnw.ch> |
+| Laura Roggo             | <laura.roggo@students.fhnw.ch>  |
+| Aleksandra Grzegorczyk  | <aleksandra.grzegorczyk@students.fhnw.ch> |
+---
+
 ## Project Description
 This project focuses on improving the employee recruitment process by making it more structured and efficient. We use BPMN to model the process, DMN to support decision-making, and Make to automate selected steps.
 
