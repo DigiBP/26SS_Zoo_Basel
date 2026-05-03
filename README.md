@@ -40,22 +40,24 @@ The goal is to clearly structure the process and reduce manual effort by automat
 <img width="8004" height="2370" alt="Hiring process_Group project_AS-IS" src="https://github.com/user-attachments/assets/18a5e4bf-1ba2-45e0-9f70-9a1cca4fafa2" />
 
 
+---
+## 2. TO-BE Process Overview
+
+The updated TO-BE process keeps the same overall hiring flow, but it adds more control points, clearer communication, and extra steps before final employment documentation. TO-BE process automate mainly the administrative and communication activities, such as storing records, sending confirmations, sending rejection messages, issuing offer documents, and managing employment documents.
+The manual work remains focused on decision-making and judgement, such as approving requisitions, reviewing candidates, conducting interviews, selecting candidates, and validating employment documentation.
+
+<img width="13944" height="2430" alt="Hiring process_Group project_TO-BE_Version 2" src="https://github.com/user-attachments/assets/90fbf3d2-fbcb-4d90-a919-44719c465510" />
 
 ---
-
-## 2. First Screening Automation
+## 2.1 First Screening Automation
 For the first screening, we created a Google Form to collect relevant candidate information such as work permit, experience, and language level.
 
 This data is evaluated using a DMN decision table, which automatically determines whether a candidate should be rejected or allowed to continue. The decision logic is integrated into the BPMN model through a Business Rule Task, and the result is used in a gateway to route the process accordingly.
 
 This step helps ensure that only candidates who meet the minimum requirements proceed to the next stage.
 
-<img width="13944" height="2430" alt="Hiring process_Group project_TO-BE_Version 2" src="https://github.com/user-attachments/assets/90fbf3d2-fbcb-4d90-a919-44719c465510" />
-
-
 ---
-
-## Assessment & Evaluation
+## 2.2 Assessment & Evaluation
 The assessment and evaluation step is implemented using a Make scenario.
 
 Once a candidate completes the online assessment, the results are stored in Google Sheets. This triggers an automated workflow that evaluates the score and sends an email to the candidate.
@@ -64,7 +66,7 @@ Depending on the outcome, the candidate either continues in the process or recei
 
 ---
 
-## Next Steps
+## 2.3.Next Steps
 The next step is to connect the first screening decision with the automation workflow. Candidates who pass the initial screening should automatically receive the assessment link.
 
 Further improvements include refining the decision rules and extending automation to additional parts of the recruitment process.
