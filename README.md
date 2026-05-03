@@ -66,7 +66,7 @@ Depending on the outcome, the candidate either continues in the process or recei
 
 ---
 
-## 2.3.Next Steps
+## 2.3. Next Steps
 The next step is to connect the first screening decision with the automation workflow. Candidates who pass the initial screening should automatically receive the assessment link.
 
 Further improvements include refining the decision rules and extending automation to additional parts of the recruitment process.
